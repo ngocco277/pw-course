@@ -34,6 +34,10 @@
     - git commit -m "tên version"
     - git remote add origin "copy ssh key từ github pass vô" nếu có sẵn rồi thì bỏ qua lệnh này.
     - git push origin main => push code lên github
+    - git commit --amend -m "message" => lệnh update lại tên version
+    - git restore --staged <tên file> => đưa file từ vùng Staging về Working Directoty
+    - git reset HEAD~1 (undo 1 commit)=> đưa file từ vùng Repository về WOrking 
+    - git checkout -b feat/add-test-01 =? tạo nhanh mới 
 # Javascript basic
     - Nên dùng let thay vì dùng var.
     - Tên biến không được đặt dấu cách và bắt đầu bằng số và không được trùng với các từ trong Java được đặt làm keywork như if, var.
